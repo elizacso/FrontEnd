@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>candy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/food-slice-cake.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="menu">
+      <img src="/img/cake.svg" alt="candy">
+      <nav aria-label="primaria">
+        <ul class="header-menu">
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <hr>
+  </header>
+  <main class="intro">
+    <div>
+      <img class="bolo" src="img/douglas-lopez-W6ytTMl-FGI-unsplash.jpg" alt="bolo">
+    </div>
+    <div>
+      <h1>Delícias Doces, Sabores Infinitos.</h1><br>
+      <p>Bem-vindo ao nosso encantador paraíso dos sabores! Em nosso restaurante de bolos, sobremesas, doces, tortas e muito mais, a doçura encontra o seu lar. Aqui, cada mordida é uma jornada inesquecível pelo mundo das delícias açucaradas, onde a tradição e a inovação se unem para criar experiências gastronômicas únicas. Deixe-nos levá-lo por um passeio tentador através de um cardápio repleto de tentações, onde a doçura é a estrela principal. Seja para uma celebração especial, um encontro casual ou apenas para satisfazer seu desejo por algo doce, estamos aqui para tornar cada momento memorável e cada paladar satisfeito. Bem-vindo ao nosso mundo de sabor, onde o doce é sempre a resposta!</p>
+    </div>
+  </main>
+  <section class="cardapio-b" id="cardapio">
+    <h1>Cardápio</h1><br>
+    <div class="cardapio">
+      <table>
+        <thead>
+          <tr>
+            <td> </td>
+            <td>Sobremesas</td>
+            <td>Descrição</td>
+            <td>Preço</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="img/pexels-pixabay-45202.jpg" alt=""></td>
+            <td class="nome">Brownie</td>
+            <td>Fatia de brownie com chocolate alpino.</td>
+            <td>R$ 20,99</td>
+          </tr>
+          <tr>
+            <td><img src="img/pexels-pixabay-461431.jpg" alt=""></td>
+            <td class="nome">Torta de Morango</td>
+            <td>Fatia com recheio de chocolate branco.</td>
+            <td>R$ 27,99</td>
+          </tr>
+          <tr>
+            <td><img src="img/pexels-abhinav-goswami-291528.jpg" alt=""></td>
+            <td class="nome">Bolo de Chocolate</td>
+            <td>Fatia com recheio de brigadeiro.</td>
+            <td>R$ 25,99</td>
+          </tr>
+          <tr>
+            <td><img src="img/pexels-eric-mufasa-1414234.jpg" alt=""></td>
+            <td class="nome">Torta Oreo</td>
+            <td>Fatia com biscoito Oreo.</td>
+            <td>R$ 29,99</td>
+          </tr>
+          <tr>
+            <td><img src="img/pexels-wendy-wei-3071821.jpg" alt=""></td>
+            <td class="nome">Cheesecake</td>
+            <td>Fatia recheada com creme de ricota.</td>
+            <td>R$ 26,99</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="footer-infos">
+      <img src="img/candybranco.svg" alt="candy">
+      <div>
+        <br>
+        <h3>Contato</h3>
+        <ul>
+          <li>+55 21 98687-4569</li>
+          <li>candystore@gmail.com</li>
+          <li>Rua Almirante Barroso, 296 - Ipanema</li>
+          <li>Rio de Janeiro - RJ</li>
+        </ul>
+        <br>
+        <div class="footer-redes">
+          <img src="img/insta.svg" alt="instagram">
+          <img src="img/wpp.svg" alt="whatsapp">
+        </div>
+      </div>
+    </div>
+    <section class="forms" aria-label="formulário">
+      <h2>Formulário de contato</h2>
+      <form method="post" action="https://652c7d9fd0d1df5273ef717a.mockapi.io/api/v1/forms">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="contato@email.com" required>
+        </div>
+        <div>
+          <label for="tel">Tel.:</label>
+          <input type="tel" id="tel" name="tel" placeholder="(21) 99999-9999">
+        </div>
+        <div>
+          <label for="subject">Assunto:</label>
+          <input type="text" id="subject" name="subject" placeholder="Digite o assunto">
+        </div>
+        <div>
+          <label for="text">Mensagem:</label>
+          <textarea id="text" name="text" cols="22" rows="5" placeholder="O que você precisa?"></textarea>
+        </div>
+        <div class="botao">
+          <button>Enviar</button>
+        </div>
+      </form>
+    </section>
+  </footer>
+</body>
+
+</html>
